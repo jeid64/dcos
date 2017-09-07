@@ -2,6 +2,9 @@
 
 cd "/pkg/src/dcos-ui"
 
+apt-get update
+apt-get install phantomjs
+
 npm install -g npm@3.9.1
 
 # Run npm install with `unsafe-perm` flag to run install scripts with root
