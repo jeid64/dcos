@@ -1,5 +1,5 @@
 {
-  "docker": "jeid64/ubuntu-arm64v8:16.04",
+  "docker": "node:4.4.4",
   "single_source" : {
     "kind": "git",
     "git": "https://github.com/dcos/dcos-ui.git",
