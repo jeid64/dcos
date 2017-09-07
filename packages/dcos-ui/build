@@ -3,11 +3,10 @@
 cd "/pkg/src/dcos-ui"
 
 apt-get update
-apt-get install libicu55 git --yes
+apt-get install libicu55 git libxml2 libfontconfig --yes
 git clone https://github.com/mitghi/phantomjs-2.1.1-arm64 && cd phantomjs-2.1.1-arm64
 dpkg -i phantomjs-2.1.1-aarch64.deb
 apt-get install -f
-apt-get install libicu55 --yes
 
 npm install -g npm@3.9.1
 
