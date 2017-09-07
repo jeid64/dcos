@@ -1,5 +1,5 @@
 {
-  "docker": "node:4.4.4",
+  "docker": "arm64v8/node:4.8",
   "single_source": {
     "kind": "git",
     "git": "https://github.com/dcos/dcos-installer-ui.git",
