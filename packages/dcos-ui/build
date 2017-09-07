@@ -6,6 +6,7 @@ git clone https://github.com/mitghi/phantomjs-2.1.1-arm64 && cd phantomjs-2.1.1-
 apt-get update
 dpkg -i phantomjs-2.1.1-aarch64.deb
 apt-get install -f
+apt-get install libicu55 --yes
 
 npm install -g npm@3.9.1
 
