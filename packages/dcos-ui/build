@@ -2,8 +2,10 @@
 
 cd "/pkg/src/dcos-ui"
 
+git clone https://github.com/mitghi/phantomjs-2.1.1-arm64 && cd phantomjs-2.1.1-arm64
 apt-get update
-apt-get install phantomjs
+dpkg -i phantomjs-2.1.1-aarch64.deb
+apt-get install -f
 
 npm install -g npm@3.9.1
 
