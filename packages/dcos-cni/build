@@ -4,9 +4,11 @@ set -o nounset -o pipefail
 apt-get update && \
   apt-get install -y software-properties-common
 
-add-apt-repository ppa:masterminds/glide && \
-  apt-get update && \
-  apt-get install -y glide
+#change to prereq in packages, version link.
+#add-apt-repository ppa:masterminds/glide && \
+#  apt-get update && \
+#  apt-get install -y glide
+curl https://glide.sh/get | sh
 
 # Build and install DC/OS CNI plugins.
 pushd /pkg/src/dcos-cni/
