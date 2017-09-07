@@ -9,7 +9,7 @@ pushd "/pkg/src/openssl"
   --openssldir="$PKG_PATH/etc/ssl" \
   shared \
   zlib \
-  linux-x86_64 \
+  linux-aarch64 \
   no-krb5 \
   no-rc4 \
   no-ssl2 \
