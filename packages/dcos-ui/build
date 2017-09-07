@@ -8,6 +8,8 @@ git clone https://github.com/mitghi/phantomjs-2.1.1-arm64 && cd phantomjs-2.1.1-
 dpkg -i phantomjs-2.1.1-aarch64.deb
 apt-get install -f
 
+cd ../
+
 npm install -g npm@3.9.1
 
 # Run npm install with `unsafe-perm` flag to run install scripts with root
