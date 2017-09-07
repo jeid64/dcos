@@ -1,5 +1,5 @@
 {
-  "docker": "arm64v8/golang:1.7-alpine3.5",
+  "docker": "arm64v8/golang:1.9-stretch",
   "single_source" : {
     "kind": "git",
     "git": "https://github.com/mesosphere/mesos-dns.git",
