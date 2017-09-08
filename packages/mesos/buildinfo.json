@@ -3,7 +3,7 @@
   "single_source" : {
     "kind": "git",
     "git": "https://github.com/jeid64/mesos",
-    "ref": "6d327c71a07ee1747cfdafa56b8314a79e998fcd",
+    "ref": "f5970e6a818e29935db672625ffcd1525e0f55c5",
     "ref_origin" : "dcos-mesos-1.4.0-rc3"
   },
   "environment": {
