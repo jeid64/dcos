@@ -2,7 +2,7 @@ FROM arm64v8/fedora:26
 MAINTAINER help@dcos.io
 
 WORKDIR /
-RUN dnf install --yes curl ca-certificates git openssh openssl tar xz zlib 
+RUN yum install -y curl ca-certificates git openssh openssl tar xz zlib 
 VOLUME ["/genconf"]
 
 EXPOSE 9000
