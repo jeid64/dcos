@@ -14,7 +14,6 @@ pushd "/pkg/src/openssl"
   no-rc4 \
   no-ssl2 \
   no-ssl3 \
-  enable-ec_nistp_64_gcc_128 \
   -Wa,--noexecstack \
   -O2 -DFORTIFY_SOURCE=2
 
