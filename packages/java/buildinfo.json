@@ -2,8 +2,8 @@
   "sources" : {
     "java": {
       "kind": "url_extract",
-      "url": "https://s3-us-west-2.amazonaws.com/jeid-rhel7-test/arm64/jdk-8u144-linux-arm64-vfp-hflt.tar.gz",
-      "sha1": "9b587b4ac302ed859bf5b4b87576ce3edc1884ea"
+      "url": "https://s3-us-west-2.amazonaws.com/jeid-rhel7-test/arm32/jdk-8u144-linux-arm32-vfp-hflt.tar.gz",
+      "sha1": "dd7cb1c1b0e32c9b77a863bd1caedc9f47e9371f"
     }
   },
   "environment": {

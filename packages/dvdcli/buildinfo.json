@@ -1,5 +1,5 @@
 {
-  "docker": "arm64v8/golang:1.9-stretch",
+  "docker": "arm32v7/golang:1.9-stretch",
   "single_source" : {
     "kind": "git",
     "git": "https://github.com/codedellemc/dvdcli.git",
