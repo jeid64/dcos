@@ -1,6 +1,16 @@
 #!/bin/bash
 libdir="$PKG_PATH/lib"
 
+# We're gonna need to download Oracle JDK to replace OpenJVM on armv7
+# OpenJDK for armv7 on Ubuntu is broken for SSL connections using ECDH
+# Which Maven uses to fetch the Apache Maven POM...
+curl -O https://s3-us-west-2.amazonaws.com/jeid-rhel7-test/arm32/jdk-8u144-linux-arm32-vfp-hflt.tar.gz
+tar -xf jdk-8u144-linux-arm32-vfp-hflt.tar.gz -C /opt
+update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_144/bin/javac 1
+update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_144/bin/java 1
+update-alternatives  --set javac /opt/jdk1.8.0_144/bin/javac
+update-alternatives  --set java /opt/jdk1.8.0_144/bin/java
+
 # TODO(cmaloney): Check prerequisites installed (glog, protobuf, boost)
 pushd "/pkg/src/mesos"
 ./bootstrap
