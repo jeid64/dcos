@@ -3,8 +3,8 @@
   "single_source" : {
     "kind": "git",
     "git": "https://github.com/jeid64/mesos",
-    "ref": "c9132158a21f2ac8dde46dd0f19887c5bad27696",
-    "ref_origin" : "dcos-mesos-1.4.x-60b8d41"
+    "ref": "a2108387ce500f4a1c1e25555103798276aeb291",
+    "ref_origin" : "dcos-mesos-1.4.x-60b8d41-leveldb"
   },
   "environment": {
     "JAVA_LIBRARY_PATH": "/opt/mesosphere/lib",
