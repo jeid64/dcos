@@ -4,8 +4,8 @@
     "navstar": {
       "kind": "git",
       "git": "https://github.com/dcos/navstar.git",
-      "ref": "ce160d474c885ef74510beda7321993ef29078c2",
-      "ref_origin": "master"
+      "ref": "7955cf6545dbf638bde9360adfcdde88fe3c0790",
+      "ref_origin": "urbanserj/armv7"
     }
   },
   "sysctl": {
